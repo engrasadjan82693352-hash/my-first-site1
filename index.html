@@ -1,60 +1,70 @@
-in<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>My First Page</title>
+    <title>My First Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            background-color: lightyellow;
-            text-align: center; /* centers everything */
-            font-family: Arial;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
         }
-        <nav>
-        <a herf="#home">home</a>
-        <a herf="#about">about<a/>
-        <a herf="#contact">contact</a>
-        </nav>
-        h1 id="home">welcome to my website</h1>
-        <h2 id="about">about me</h2>
-        <h2 id="contact">cotact me</h2>
-        p { color: darkgreen; }
-        img { border-radius: 10px; max-width: 100%; 
-             hight: auto;
-            }
+        h1 {
+            color: blue;
+        }
+        p {
+            color: green;
+        }
+        img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
         a {
-            background-color: orange; 
-            color: white; 
-            padding: 10px 20px; 
+            background-color: orange;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: green;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
             text-decoration: none;
-            border-radius: 5px; }
-        a:hover nav {
-    background-color: #333;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
-nav a:hover {
-    text-decoration: underline;
-}
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to my website</h1>
-    <p>This is my first paragraph</p>
-    <img src="boat.jpg" alt="my boat" width="300">
-    <br>
-    <a href="http://google.com">Click Me</a>
 
-    <h2>About Me</h2>
-    <p>Hi! My name is Asad Jan. I love boats and web development.</p>
-    <p>I am learning to build websites.</p>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <h2>Contact</h2>
-    <p>Email me at:engineerasadjan@gmail.com</p>
+<h1 id="home">Welcome to My Website</h1>
+<p>This is my first paragraph.</p>
+<img src="https://placekitten.com/200/200" alt="Cute Cat">
+
+<h2 id="about">About Me</h2>
+<p>Hi, my name is Asad. I am learning to code websites!</p>
+
+<a href="https://www.google.com">Visit Google</a>
+
+<h2 id="contact">Contact Me</h2>
+<p>Email: engineerasadjan@gmail.com</p>
+
 </body>
 </html>
